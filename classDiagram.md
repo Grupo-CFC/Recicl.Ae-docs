@@ -13,7 +13,5 @@ classDiagram
     + urlQr: String
   }
 
-  User --> Discard : discards
-
   User "1" *-- "N" Discard
 ```
